@@ -73,7 +73,6 @@ header {
 .dashed {
   width: 70px;
   height: 70px;
-  /* border-bottom: 1px dashed #262626; */
   border-right: 1px dashed #262626;
   position: absolute;
   bottom: -1px;
