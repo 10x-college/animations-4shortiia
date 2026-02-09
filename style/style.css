@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #0f0f0f;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1596px;
+  margin: 0 auto;
+  height: 123px;
+  padding: 0 62px;
+  border-bottom: 1px dashed #262626;
+  position: relative;
+  width: 90%;
+}
+
+.nav-group,
+.action-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home-btn {
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border: none;
+  width: 104px;
+  height: 63px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.products-btn {
+  color: #b3b3b2;
+  background-color: transparent;
+  border: none;
+  width: 135px;
+  height: 63px;
+  border: 1px dashed #262626;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-group .dashed {
+  left: -70px;
+  transform: rotate(0deg);
+}
+
+.action-group .dashed {
+  right: -70px;
+  transform: scaleX(-1);
+}
+
+.dashed {
+  width: 70px;
+  height: 70px;
+  border-bottom: 1px dashed #262626;
+  border-right: 1px dashed #262626;
+  position: absolute;
+  bottom: -1px;
+}
+
+.dashed::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #0f0f0f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+
+figure {
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn {
+  background-color: #ae9b84;
+  color: #0f0f0f;
+  width: 136px;
+  height: 63px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.icon-btn {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-btn img {
+  width: 24px;
+  height: 24px;
+}
